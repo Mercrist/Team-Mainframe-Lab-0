@@ -1,8 +1,16 @@
-body{
-  background: linear-gradient(.25turn, #B3FFAB, #12FFF7);
+body {
+  background: linear-gradient(0.25turn, #b3ffab, #12fff7);
 }
 
-#Profiles{
-  margin-top: 100px;
+#Profiles {
+  margin-top: 300px;
   text-align: center;
+}
+
+#Profiles a {
+  text-decoration: none;
+}
+
+#Profiles a:hover {
+  text-decoration: underline;
 }
