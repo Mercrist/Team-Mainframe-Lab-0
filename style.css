@@ -13,16 +13,7 @@ body {
   margin-top: 10px;
   font-size: 60px;
   font-family: Garamond;
-}
-
-#Title::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 3px;
-  background-color: var(--bottom_border);
-  margin-left: 750px;
+  text-decoration: 3px underline solid var(--bottom_border);
 }
 
 #Profiles {
