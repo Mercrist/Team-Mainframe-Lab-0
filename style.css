@@ -18,12 +18,22 @@ a {
 }
 
 #Profiles {
-  padding-bottom: 1000px;
+  margin-top: 80px;
+  text-align: center;
 }
 
 #Profiles a {
   font-size: 23px;
   color: var(--bluer);
+  display: block;
+}
+
+#Profiles a > div {
+  display: none;
+}
+#Profiles a:hover > div {
+  margin-left: 20%;
+  margin-top: -3%;
   display: block;
 }
 
@@ -34,7 +44,7 @@ a {
   text-shadow: 1px 1px 2px var(--blue_select);
 }
 
-#Title {
+.Description #Title {
   text-align: center;
   margin-top: 10px;
   font-size: 60px;
@@ -42,19 +52,17 @@ a {
   text-decoration: 3px underline solid var(--bottom_border);
 }
 
-#Profiles {
-  margin-top: 200px;
-  text-align: center;
+.Description {
+  margin: auto 35% auto;
 }
 
-.Description {
-  padding-top: 100px;
-  margin-left: 35%;
+.Description img {
+  padding-left: 8vw;
 }
 
 .Description #content {
   text-align: center;
-  border: 5px black;
-  width: 600px;
-  height: 130px;
+  border: 5px solid transparent;
+  width: 30vw;
+  height: 15vh;
 }
