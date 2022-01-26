@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+#Profiles {
+  padding-bottom: 1000px;
+}
+
 #Profiles a {
   font-size: 23px;
   color: var(--bluer);
@@ -43,11 +47,14 @@ a {
   text-align: center;
 }
 
-#Description {
+.Description {
+  padding-top: 100px;
+  margin-left: 35%;
+}
+
+.Description #content {
   text-align: center;
-  padding-top: 20px;
-  border: 5px solid black;
+  border: 5px black;
   width: 600px;
   height: 130px;
-  margin-left: 35%;
 }
