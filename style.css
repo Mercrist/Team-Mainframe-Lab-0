@@ -10,7 +10,9 @@ body {
 
 p {
   font-size: 27px;
-  font-family: "Dongle", sans-serif;
+  /* font-family: "Dongle", sans-serif; */
+  font-family: 'VT323', monospace;
+
 }
 
 a {
@@ -48,7 +50,7 @@ a {
   text-align: center;
   margin-top: 10px;
   font-size: 60px;
-  font-family: Garamond;
+  font-family: 'VT323', monospace;
   text-decoration: 3px underline solid var(--bottom_border);
 }
 
@@ -66,3 +68,8 @@ a {
   width: 30vw;
   height: 15vh;
 }
+
+#Title {
+  font-family: 'VT323', monospace;
+}
+
