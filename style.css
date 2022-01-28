@@ -6,6 +6,9 @@
 
 body {
   background: linear-gradient(0.25turn, #b3ffab, #12fff7);
+}
+
+body.xavier {
   overflow: hidden;
 }
 
