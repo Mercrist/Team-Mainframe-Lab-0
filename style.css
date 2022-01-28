@@ -6,11 +6,19 @@
 
 body {
   background: linear-gradient(0.25turn, #b3ffab, #12fff7);
+  overflow: hidden;
+}
+
+html,
+body {
+  /* Disables side scrolling! */
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 100%;
 }
 
 p {
   font-size: 27px;
-  /* font-family: "Dongle", sans-serif; */
   font-family: "VT323", monospace;
 }
 
@@ -79,4 +87,47 @@ a {
 
 #Linkedin {
   padding-right: 235px;
+}
+
+#Basics {
+  margin: 0;
+  position: absolute;
+  top: 28%;
+  left: 60%;
+  -ms-transform: translate(-80%, -50%);
+  transform: translate(-80%, -50%);
+}
+
+#Preferences {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  -ms-transform: translate(-80%, 10%);
+  transform: translate(-80%, 10%);
+}
+
+h2 {
+  font-size: 60px;
+  font-family: "VT323", monospace;
+}
+
+#Movie {
+  margin: 0;
+  position: relative;
+  bottom: 81%;
+  left: 75%;
+}
+
+#Movie #Link {
+  text-align: center;
+}
+
+#Song {
+  margin: 0;
+  position: absolute;
+  top: 86%;
+  left: 13.2%;
+  -ms-transform: translate(-80%, 10%);
+  transform: translate(-80%, 10%);
 }
