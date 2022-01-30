@@ -12,6 +12,10 @@ body.xavier {
   overflow: hidden;
 }
 
+body.yariel {
+  overflow: hidden;
+}
+
 html,
 body {
   /* Disables side scrolling! */
@@ -122,6 +126,13 @@ h2 {
   left: 75%;
 }
 
+#Movie_yariel { 
+  margin: 0;
+  position: relative;
+  bottom: 86%;
+  left: 75%;  
+}
+
 #Movie #Link {
   text-align: center;
 }
@@ -130,6 +141,15 @@ h2 {
   margin: 0;
   position: absolute;
   top: 86%;
+  left: 13.2%;
+  -ms-transform: translate(-80%, 10%);
+  transform: translate(-80%, 10%);
+}
+
+#Song_yariel {
+  margin: 0;
+  position: absolute;
+  top: 90%;
   left: 13.2%;
   -ms-transform: translate(-80%, 10%);
   transform: translate(-80%, 10%);
