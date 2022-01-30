@@ -126,14 +126,14 @@ h2 {
   left: 75%;
 }
 
-#Movie_yariel { 
+#Movie_yariel {
   margin: 0;
   position: relative;
-  bottom: 86%;
-  left: 75%;  
+  bottom: 85%;
+  left: 75%;
 }
 
-#Movie #Link {
+#Movie_yariel #Link {
   text-align: center;
 }
 
